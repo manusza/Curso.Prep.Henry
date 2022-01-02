@@ -27,56 +27,56 @@ const nuevoModulo = 21 % 5 === 1;
 function devolverString(str) {
   // "Return" la string provista: str
   // Tu código:
-  console.log(str);
-  return;
+  return console.log(str);
 }
 
 function suma(x, y) {
   // "x" e "y" son números
   // Suma "x"e "y" juntos y devuelve el valor
   // Tu código:
-  console.log(x + y);
-  return;
-}
+  return console.log(x + y);
+  }
 
 function resta(x, y) {
   // Resta "y" de "x" y devuelve el valor
   // Tu código:
-  console.log(x - y);
-  return;
+  return console.log(x - y); 
 }
 
 function multiplica(x, y) {
   // Multiplica "x" por "y" y devuelve el valor
   // Tu código:
-  console.log(x * y);
-  return;
+   return console.log(x * y);
 }
 
 function divide(x, y) {
   // Divide "x" entre "y" y devuelve el valor
   // Tu código:
-  console.log(x / y);
-  return;
+  return console.log(x / y);
 }
 
 function sonIguales(x, y) {
   // Devuelve "true" si "x" e "y" son iguales
   // De lo contrario, devuelve "false"
   // Tu código:
-  if ((x = y)) {
-    return true;
+  if (x === y) {
+    return console.log(true);
+    
+  } else {
+    return console.log(false);
   }
-  return false;
-}
+
 
 function tienenMismaLongitud(str1, str2) {
   // Devuelve "true" si las dos strings tienen la misma longitud
   // De lo contrario, devuelve "false"
   // Tu código:
-  if (str1 == str2) {
-    return true;
-  } else return false;
+  if (str1.length === str2.length) {
+    return console.log(true);
+    
+  } else {
+    return console.log(false);
+  }
 }
 
 function menosQueNoventa(num) {
@@ -100,8 +100,8 @@ function mayorQueCincuenta(num) {
 function obtenerResto(x, y) {
   // Obten el resto de la división de "x" entre "y"
   // Tu código:
-  console.log(x % y);
-  return;
+  return console.log(x % y);
+  
 }
 
 function esPar(num) {
@@ -126,43 +126,43 @@ function elevarAlCuadrado(num) {
   // Devuelve el valor de "num" elevado al cuadrado
   // ojo: No es raiz cuadrada!
   // Tu código:
-  console.log(num ** 2);
-  return;
+  return console.log(num ** 2);
+  
 }
 
 function elevarAlCubo(num) {
   // Devuelve el valor de "num" elevado al cubo
   // Tu código:
-  console.log(num ** 3);
-  return;
+  return console.log(num ** 3);
+  
 }
 
 function elevar(num, exponent) {
   // Devuelve el valor de "num" elevado al exponente dado en "exponent"
   // Tu código:
-  console.log(num ** exponent);
-  return;
+  return console.log(num ** exponent);
+  
 }
 
 function redondearNumero(num) {
   // Redondea "num" al entero más próximo y devuélvelo
   // Tu código:
-  console.log(Math.round(num));
-  return;
+  return console.log(Math.round(num));
+  
 }
 
 function redondearHaciaArriba(num) {
   // Redondea "num" hacia arriba (al próximo entero) y devuélvelo
   // Tu código:
-  console.log(math.ceil(num));
-  return;
+  return console.log(math.ceil(num));
+  
 }
 
 function numeroRandom() {
   //Generar un número al azar entre 0 y 1 y devolverlo
   //Pista: investigá qué hace el método Math.random()
-  console.log(math.random());
-  return;
+  return console.log(math.random());
+  
 }
 
 function esPositivo(numero) {
@@ -171,14 +171,14 @@ function esPositivo(numero) {
   //Si el número es negativo, devolver ---> "Es negativo"
   //Si el número es 0, devuelve false
   if (numero > 0) {
-    console.log(`Es positivo`);
-    return;
+    return console.log(`Es positivo`);
+    
   } else if (numero < 0) {
-    console.log(`Es negativo`);
-    return;
+    return console.log(`Es negativo`);
+   
   } else {
-    console.log(false);
-    return;
+    return console.log(false);
+   
   }
 }
 
@@ -186,54 +186,49 @@ function agregarSimboloExclamacion(str) {
   // Agrega un símbolo de exclamación al final de la string "str" y devuelve una nueva string
   // Ejemplo: "hello world" pasaría a ser "hello world!"
   // Tu código:
-  console.log(str + `!`);
-  return;
-}
+  return console.log(str + `!`);
+ }
 
 function combinarNombres(nombre, apellido) {
   // Devuelve "nombre" y "apellido" combinados en una string y separados por un espacio.
   // Ejemplo: "Soy", "Henry" -> "Soy Henry"
   // Tu código:
-  console.log(str(nombre + apellido));
-  return;
+  return console.log(str(nombre + apellido));
 }
 
 function obtenerSaludo(nombre) {
   // Toma la string "nombre" y concatena otras string en la cadena para que tome la siguiente forma:
   // "Martin" -> "Hola Martin!"
   // Tu código:
-  console.log(`Hola ` + nombre + ` como estas amigo?`);
-  return;
+  return console.log(`Hola ` + nombre + ` como estas amigo?`);
 }
 
 function obtenerAreaRectangulo(alto, ancho) {
   // Retornar el area de un rectángulo teniendo su altura y ancho
   // Tu código:
-  console.log(alto * ancho);
-  return;
+  return console.log(alto * ancho);
 }
 
 function retornarPerimetro(lado) {
   //Escibe una función a la cual reciba el valor del lado de un cuadrado y retorne su perímetro.
   //Escribe tu código aquí
-  console.log(lado * lado);
-  return;
+  return console.log(lado * lado);
+  
 }
 
 function areaDelTriangulo(base, altura) {
   //Desarrolle una función que calcule el área de un triángulo.
   //Escribe tu código aquí
-  console.log((base * altura) / 2);
-  return;
+  return console.log((base * altura) / 2);
+  
 }
 
 function deEuroAdolar(euro) {
   //Supongamos que 1 euro equivale a 1.20 dólares. Escribe un programa que reciba
   //como parámetro un número de euros y calcule el cambio en dólares.
   //Escribe tu código aquí
-  console.log(euro * 1.2);
-  return;
-}
+  return console.log(euro * 1.2);
+  }
 
 function esVocal(letra) {
   //Escribe una función que reciba una letra y, si es una vocal, muestre el mensaje “Es vocal”.
@@ -241,13 +236,12 @@ function esVocal(letra) {
   //que no se puede procesar el dato mediante el mensaje "Dato incorrecto".
   // Si no es vocal, tambien debe devolver "Dato incorrecto".
   //Escribe tu código aquí
-  if ((letra = `a` || `e` || `i` || `o` || (`u` && letra.length <= 1))) {
-    console.log(`Es vocal`);
-    return;
+  if ((letra = `a` || `e` || `i` || `o` || `u` && letra.length === 1)) {
+    return console.log(`Es vocal`);
+    
   } else {
-    console.log(`Dato incorrecto`);
-    return;
-  }
+    return console.log(`Dato incorrecto`);
+   }
 }
 
 // No modificar nada debajo de esta línea
