@@ -231,7 +231,7 @@ function deEuroAdolar(euro) {
   //Supongamos que 1 euro equivale a 1.20 dólares. Escribe un programa que reciba
   //como parámetro un número de euros y calcule el cambio en dólares.
   //Escribe tu código aquí
-  console.log(euro * 1.2);
+  euro * 1.2;
   return;
 }
 
@@ -242,10 +242,10 @@ function esVocal(letra) {
   // Si no es vocal, tambien debe devolver "Dato incorrecto".
   //Escribe tu código aquí
   if ((letra = `a` || `e` || `i` || `o` || (`u` && letra.length <= 1))) {
-    console.log(`Es vocal`);
+    `Es vocal`;
     return;
   } else {
-    console.log(`Dato incorrecto`);
+    `Dato incorrecto`;
     return;
   }
 }
