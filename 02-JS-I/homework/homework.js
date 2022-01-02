@@ -27,32 +27,32 @@ const nuevoModulo = 21 % 5 === 1;
 function devolverString(str) {
   // "Return" la string provista: str
   // Tu código:
-  return console.log(str);
+  return str;
 }
 
 function suma(x, y) {
   // "x" e "y" son números
   // Suma "x"e "y" juntos y devuelve el valor
   // Tu código:
-  return console.log(x + y);
+  return x + y;
 }
 
 function resta(x, y) {
   // Resta "y" de "x" y devuelve el valor
   // Tu código:
-  return console.log(x - y);
+  return x - y;
 }
 
 function multiplica(x, y) {
   // Multiplica "x" por "y" y devuelve el valor
   // Tu código:
-  return console.log(x * y);
+  return x * y;
 }
 
 function divide(x, y) {
   // Divide "x" entre "y" y devuelve el valor
   // Tu código:
-  return console.log(x / y);
+  return x / y;
 }
 
 function sonIguales(x, y) {
@@ -60,9 +60,9 @@ function sonIguales(x, y) {
   // De lo contrario, devuelve "false"
   // Tu código:
   if (x === y) {
-    return console.log(true);
+    return true;
   } else {
-    return console.log(false);
+    return false;
   }
 }
 
@@ -71,9 +71,9 @@ function tienenMismaLongitud(str1, str2) {
   // De lo contrario, devuelve "false"
   // Tu código:
   if (str1.length === str2.length) {
-    return console.log(true);
+    return true;
   } else {
-    return console.log(false);
+    return false;
   }
 }
 
@@ -98,7 +98,7 @@ function mayorQueCincuenta(num) {
 function obtenerResto(x, y) {
   // Obten el resto de la división de "x" entre "y"
   // Tu código:
-  return console.log(x % y);
+  return x % y;
 }
 
 function esPar(num) {
@@ -188,7 +188,7 @@ function obtenerSaludo(nombre) {
   // Toma la string "nombre" y concatena otras string en la cadena para que tome la siguiente forma:
   // "Martin" -> "Hola Martin!"
   // Tu código:
-  return `Hola ` + nombre + ` como estas amigo?`;
+  return `Hola ` + nombre;
 }
 
 function obtenerAreaRectangulo(alto, ancho) {
@@ -200,7 +200,7 @@ function obtenerAreaRectangulo(alto, ancho) {
 function retornarPerimetro(lado) {
   //Escibe una función a la cual reciba el valor del lado de un cuadrado y retorne su perímetro.
   //Escribe tu código aquí
-  return lado * lado;
+  return lado * 4;
 }
 
 function areaDelTriangulo(base, altura) {
