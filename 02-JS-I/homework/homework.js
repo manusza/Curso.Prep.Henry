@@ -35,18 +35,18 @@ function suma(x, y) {
   // Suma "x"e "y" juntos y devuelve el valor
   // Tu código:
   return console.log(x + y);
-  }
+}
 
 function resta(x, y) {
   // Resta "y" de "x" y devuelve el valor
   // Tu código:
-  return console.log(x - y); 
+  return console.log(x - y);
 }
 
 function multiplica(x, y) {
   // Multiplica "x" por "y" y devuelve el valor
   // Tu código:
-   return console.log(x * y);
+  return console.log(x * y);
 }
 
 function divide(x, y) {
@@ -61,11 +61,10 @@ function sonIguales(x, y) {
   // Tu código:
   if (x === y) {
     return console.log(true);
-    
   } else {
     return console.log(false);
   }
-
+}
 
 function tienenMismaLongitud(str1, str2) {
   // Devuelve "true" si las dos strings tienen la misma longitud
@@ -73,7 +72,6 @@ function tienenMismaLongitud(str1, str2) {
   // Tu código:
   if (str1.length === str2.length) {
     return console.log(true);
-    
   } else {
     return console.log(false);
   }
@@ -101,7 +99,6 @@ function obtenerResto(x, y) {
   // Obten el resto de la división de "x" entre "y"
   // Tu código:
   return console.log(x % y);
-  
 }
 
 function esPar(num) {
@@ -127,42 +124,36 @@ function elevarAlCuadrado(num) {
   // ojo: No es raiz cuadrada!
   // Tu código:
   return console.log(num ** 2);
-  
 }
 
 function elevarAlCubo(num) {
   // Devuelve el valor de "num" elevado al cubo
   // Tu código:
   return console.log(num ** 3);
-  
 }
 
 function elevar(num, exponent) {
   // Devuelve el valor de "num" elevado al exponente dado en "exponent"
   // Tu código:
   return console.log(num ** exponent);
-  
 }
 
 function redondearNumero(num) {
   // Redondea "num" al entero más próximo y devuélvelo
   // Tu código:
   return console.log(Math.round(num));
-  
 }
 
 function redondearHaciaArriba(num) {
   // Redondea "num" hacia arriba (al próximo entero) y devuélvelo
   // Tu código:
   return console.log(math.ceil(num));
-  
 }
 
 function numeroRandom() {
   //Generar un número al azar entre 0 y 1 y devolverlo
   //Pista: investigá qué hace el método Math.random()
   return console.log(math.random());
-  
 }
 
 function esPositivo(numero) {
@@ -172,13 +163,10 @@ function esPositivo(numero) {
   //Si el número es 0, devuelve false
   if (numero > 0) {
     return console.log(`Es positivo`);
-    
   } else if (numero < 0) {
     return console.log(`Es negativo`);
-   
   } else {
     return console.log(false);
-   
   }
 }
 
@@ -187,7 +175,7 @@ function agregarSimboloExclamacion(str) {
   // Ejemplo: "hello world" pasaría a ser "hello world!"
   // Tu código:
   return console.log(str + `!`);
- }
+}
 
 function combinarNombres(nombre, apellido) {
   // Devuelve "nombre" y "apellido" combinados en una string y separados por un espacio.
@@ -213,14 +201,12 @@ function retornarPerimetro(lado) {
   //Escibe una función a la cual reciba el valor del lado de un cuadrado y retorne su perímetro.
   //Escribe tu código aquí
   return console.log(lado * lado);
-  
 }
 
 function areaDelTriangulo(base, altura) {
   //Desarrolle una función que calcule el área de un triángulo.
   //Escribe tu código aquí
   return console.log((base * altura) / 2);
-  
 }
 
 function deEuroAdolar(euro) {
@@ -228,7 +214,7 @@ function deEuroAdolar(euro) {
   //como parámetro un número de euros y calcule el cambio en dólares.
   //Escribe tu código aquí
   return console.log(euro * 1.2);
-  }
+}
 
 function esVocal(letra) {
   //Escribe una función que reciba una letra y, si es una vocal, muestre el mensaje “Es vocal”.
@@ -236,12 +222,11 @@ function esVocal(letra) {
   //que no se puede procesar el dato mediante el mensaje "Dato incorrecto".
   // Si no es vocal, tambien debe devolver "Dato incorrecto".
   //Escribe tu código aquí
-  if ((letra = `a` || `e` || `i` || `o` || `u` && letra.length === 1)) {
+  if ((letra = `a` || `e` || `i` || `o` || (`u` && letra.length === 1))) {
     return console.log(`Es vocal`);
-    
   } else {
     return console.log(`Dato incorrecto`);
-   }
+  }
 }
 
 // No modificar nada debajo de esta línea
