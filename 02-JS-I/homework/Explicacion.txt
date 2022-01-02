@@ -1,0 +1,3 @@
+Variables: Son los numeros, letras o caracteres los cuales son necesarios para poder obtener resultados.
+Strings: Son las letras del abecedario y los caracteres, no se permiten numeros.
+Funciones:
