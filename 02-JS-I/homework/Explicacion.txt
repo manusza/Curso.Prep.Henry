@@ -1,3 +1,11 @@
 Variables: Son los numeros, letras o caracteres los cuales son necesarios para poder obtener resultados.
+
 Strings: Son las letras del abecedario y los caracteres, no se permiten numeros.
-Funciones:
+
+Funciones: En las funciones nos encontramos con argumentos, estos son la base de nuestras funciones y nos permiten declarar las variables. Para que nosotros podamos llegar al resultado, al finalizar lo desarrollado en la funcion tenemos que usar el 'return' para que nos regrese la solucion a la que logramos llegar con los argumentos dados.
+
+Declaraciones: Para saber si una variable cumple con algunos requisitos nosotros usamos el 'if', el cual nos permite comparar los valores de nuestras variables y ver si cumple las condiciones ofrecidas.
+
+Valores booleanos: Estos valores determinan si algo es verdadero 'true', o falso 'false' y dado el resultado sabemos si las variables cumplen o no con lo estipulado.
+
+
