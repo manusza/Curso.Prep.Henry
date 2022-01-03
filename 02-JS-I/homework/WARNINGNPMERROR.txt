@@ -1,0 +1,1 @@
+Hubo 4 problemas los cuales estuve aproximadamente 1h para intentar ver en que me equivocaba y me rendi, vi los videos de los tututores y estan exactamente igual, parece ser que hay un problema con la corrercion del NPM.
