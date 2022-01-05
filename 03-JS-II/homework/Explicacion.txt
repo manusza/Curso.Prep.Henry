@@ -1,0 +1,3 @@
+For: Cuando necesitamos que 
+
+Dentro del antes visto 'if', nosotros utilizamos 3 conceptos diferentes para ayudarnos en nuestro desarrollo del codigo, primero tenemos el && el cual nos dictamina que se tienen que cumplir todas las reglas dentro del if, despues esta el ||, este sirve como un 'o', entonces si uno u otro de los factores se cumple, el if sigue en proceso, por ultimo tenemos el '!=' que nos sirve para decir si algo no es igual a ello mismo, podriamos decir que 'manzana != peras'.

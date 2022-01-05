@@ -10,10 +10,10 @@ const nuevoNum = 22;
 const nuevoBool = true;
 
 // Resuelve el siguiente problema matemático:
-const nuevaResta = 10 - null === NaN;
+const nuevaResta = 10 - null === 10;
 
 // Resuelve el siguiente problema matemático:
-const nuevaMultiplicacion = 10 * null === NaN;
+const nuevaMultiplicacion = 10 * null === 0;
 
 // Resuelve el siguiente problema matemático:
 const nuevoModulo = 21 % 5 === 1;
@@ -147,13 +147,13 @@ function redondearNumero(num) {
 function redondearHaciaArriba(num) {
   // Redondea "num" hacia arriba (al próximo entero) y devuélvelo
   // Tu código:
-  return math.ceil(num);
+  return Math.ceil(num);
 }
 
 function numeroRandom() {
   //Generar un número al azar entre 0 y 1 y devolverlo
   //Pista: investigá qué hace el método Math.random()
-  return math.random();
+  return Math.random();
 }
 
 function esPositivo(numero) {
